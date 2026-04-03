@@ -17,6 +17,14 @@ public class selectionSort
             arr[i]=sc.nextInt();
         }
 
+        System.out.println("Unsorted array:");
+        for(int i=0;i<size;i++)
+        {
+            System.out.print(arr[i] + " ");            
+        }
+        System.out.println();
+        
+
         //Sorting
         for(int i=0;i<size;i++)
         {
@@ -32,6 +40,7 @@ public class selectionSort
             arr[i]=temp;
 
         }
+    
         //Display array after sorting
         System.out.println("Sorted array:");
         for(int i = 0; i < size; i++)
