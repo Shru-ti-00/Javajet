@@ -4,10 +4,20 @@ public class table
 {
     void prnTable(int num)
     {
-        int i=1;
-        for(int i=1;i<10;i++)
+        for(int i=1;i<=10;i++)
         {
             System.out.println(num*i);
         }
+    }
+
+
+    public static void main(String args[])
+    {
+        int num;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a number to print it's table: ");
+        num=sc.nextInt();
+        table obj=new table();
+        obj.prnTable(num);
     }
 }
