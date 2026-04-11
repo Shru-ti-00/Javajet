@@ -10,7 +10,7 @@ public class table
         }
     }
 
-
+    //main method
     public static void main(String args[])
     {
         int num;
@@ -18,6 +18,6 @@ public class table
         System.out.print("Enter a number to print it's table: ");
         num=sc.nextInt();
         table obj=new table();
-        obj.prnTable(num);
+        obj.prnTable(num);   //Calling prnTable() method 
     }
 }
