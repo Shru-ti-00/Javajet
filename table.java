@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+   //Adding the new comment for this codeṇ
 public class table
 {
     void prnTable(int num)
@@ -13,6 +13,7 @@ public class table
     //main method
     public static void main(String args[])
     {
+     
         int num;
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a number to print it's table: ");
